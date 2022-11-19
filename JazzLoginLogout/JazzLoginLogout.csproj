@@ -46,7 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Ftp\Ftp\Ftp.csproj">
+    <ProjectReference Include="..\..\WinFtp\Ftp\Ftp.csproj">
       <Project>{fb55f4a3-2a79-4130-bbde-71091cb7a7c8}</Project>
       <Name>Ftp</Name>
     </ProjectReference>

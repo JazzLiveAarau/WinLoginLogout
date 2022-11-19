@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JazzLoginLogout", "JazzLoginLogout\JazzLoginLogout.csproj", "{E49676C1-F331-4039-A76A-050B00BC786F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FB55F4A3-2A79-4130-BBDE-71091CB7A7C8} = {FB55F4A3-2A79-4130-BBDE-71091CB7A7C8}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftp", "..\Ftp\Ftp\Ftp.csproj", "{FB55F4A3-2A79-4130-BBDE-71091CB7A7C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftp", "..\WinFtp\Ftp\Ftp.csproj", "{FB55F4A3-2A79-4130-BBDE-71091CB7A7C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
